@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#home">Home</a></li>
+            <li class="links"><a href="#grid">Grid View</a></li>
+            <li class="links"><a href="#slide">Slide View</a></li>
+        </ul>
+    </center>
+    <div class="container">
+        <div class="page-header" id="home">
+        </div>
+        <img src="animals.jpeg" id="img1">
+        <div class="page-header" id="grid">
+            <h4>Grid View</h4>
+        </div>
+        <div class="row">
+            <img src="anteater.jpeg">
+            <img src="bear.jpeg">
+            <img src="doe.jpeg">
+            <img src="dogflower.jpeg">
+        </div>
+        <br>
+        <div class="row">
+            <img src="elephant.jpeg">
+            <img src="flamingo.jpeg">
+            <img src="fox.jpeg">
+            <img src="giraffe.jpeg">
+        </div>
+        <div class="page-header" id="slide">
+            <h4>Slide View</h4>
+        </div>
+        <div id="mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="kangaroo.jpeg">
+                </div>
+                <div class="item">
+                    <img src="koala.jpeg">
+                </div>
+                <div class="item">
+                    <img src="lamb.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="leopard.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="lion.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="panda.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="peacock.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="penguins.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="rabbit.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="snake.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="tropicalparot.jpeg">
+                </div>
+                 <div class="item">
+                    <img src="wolf.jpeg">
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right "></span>
+            </a>
+        </div>
+    </div>
+</body></html>
